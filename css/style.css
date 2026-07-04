@@ -41,7 +41,7 @@ a{
 .container{
     /*display:flex makes the container a flexbox, which is a way to layout elements in a row or column */
     display:flex;
-
+    flex-direction:row;
     min-height:100vh;
 }
 /*===========
@@ -50,6 +50,7 @@ SIDEBAR
 .sidebar{
     /* width:250px makes it 250 pixels wide */
     width: 250px;
+    min-height:100vh;
 
     /*Soft Pastel Pink*/
     background:#FDE9F3;
